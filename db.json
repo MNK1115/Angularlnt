@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Nikhil ",
+      "lastName": "maroju",
+      "email": "maroju@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Swathi",
+      "lastName": "majji",
+      "email": "majji@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Raman",
+      "lastName": "Malvae",
+      "email": "malvae@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "harsha",
+      "lastName": "Vardhan",
+      "email": "vardhan@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Rahul",
+      "lastName": "Akinapelli",
+      "email": "rahul@gmail.com"
+    }
+  ]
+}

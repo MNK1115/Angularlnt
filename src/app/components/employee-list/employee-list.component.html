@@ -1,0 +1,26 @@
+  <h1 style="background-color:pink">List of Employees</h1>
+
+    <table border="1" cellspacing="0" cellpadding="3">
+        <thead>
+            <tr>
+    
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Speaker</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let events of events">
+
+                <td> {{events.id}}</td>
+                <td>{{events.name}}</td>
+                <td>{{events.description}}</td>
+                <td>{{events.speaker}}</td>
+                <th> <button class ="btn btn-danger" (click)="deleteevent(e)">X</button></th>
+            </tr>
+         
+        </tbody>       
+    </table>
+    
